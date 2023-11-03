@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/thunderbird/static/css/main.a92824f8.css",
-    "main.js": "/thunderbird/static/js/main.ba862072.js",
+    "main.js": "/thunderbird/static/js/main.c5c05aaa.js",
     "index.html": "/thunderbird/index.html",
     "main.a92824f8.css.map": "/thunderbird/static/css/main.a92824f8.css.map",
-    "main.ba862072.js.map": "/thunderbird/static/js/main.ba862072.js.map"
+    "main.c5c05aaa.js.map": "/thunderbird/static/js/main.c5c05aaa.js.map"
   },
   "entrypoints": [
     "static/css/main.a92824f8.css",
-    "static/js/main.ba862072.js"
+    "static/js/main.c5c05aaa.js"
   ]
 }
