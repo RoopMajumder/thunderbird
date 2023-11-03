@@ -20,7 +20,7 @@ function App() {
   return (
     <BrowserRouter  basename="https://RoopMajumder.github.io/thunderbird">
       <Routes>
-        <Route path="/">
+        <Route exact path="/">
           <Route
             index
             element={
