@@ -2,7 +2,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import "./style.scss";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
 
@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter  basename="https://RoopMajumder.github.io/thunderbird">
+    <HashRouter>
       <Routes>
         <Route exact path="/">
           <Route
@@ -33,7 +33,7 @@ function App() {
           <Route path="register" element={<Register />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
