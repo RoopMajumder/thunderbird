@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="https://RoopMajumder.github.io/thunderbird">
       <Routes>
         <Route path="/">
           <Route
